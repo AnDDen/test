@@ -1,5 +1,5 @@
-#!bin/bash
+#!/bin/bash
 #
-git add .я
-git commit -m "$1"
-git push 
+git add .
+git commit -m "$@"
+git push origin master
